@@ -6,6 +6,9 @@ node_modules
 .env.local
 .env.*.local
 
+# OpenCode local config (may contain API keys / provider secrets)
+.opencode/opencode.json
+
 # Build & cache
 dist
 *.tsbuildinfo
